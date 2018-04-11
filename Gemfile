@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+  source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -49,6 +49,9 @@ group :development, :test do
   gem "rspec-rails"
 
   gem "faker"
+
+  gem "database_cleaner"
+
 end
 
 group :development do

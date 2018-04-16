@@ -130,6 +130,12 @@ RSpec.describe Expense, type: :model do
       end
     end
 
+    context ".nombre_methodo" do
+    end
+
+    context "#date_cant_be_nil" do
+    end
+
     context "transaction_type exists" do
       before do
         time = Time.now.freeze

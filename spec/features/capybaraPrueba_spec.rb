@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe "Log In", type: :feature do
-  before do
+  RSpec.feature "Log In" do
+  background do
   end
 
   scenario "The login page exists" do

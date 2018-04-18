@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :transaction_type do
-       name "MyString"
+       name Faker::Pokemon.name
   end
 end

@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :category do
-        name "Travel"
+      name Faker::Pokemon.name
   end
 end

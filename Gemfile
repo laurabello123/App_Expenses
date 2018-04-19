@@ -52,6 +52,8 @@ group :development, :test do
 
   gem "database_cleaner"
 
+  gem "letter_opener"
+
 end
 
 group :development do

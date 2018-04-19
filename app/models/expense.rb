@@ -21,7 +21,7 @@ class Expense < ApplicationRecord
   scope :amount_this_month, -> {this_month.pluck(:amount).sum }
 
   scope :daily_expenses, -> {where("date >= ?", 1.day.ago.end_of_day)}
-#  scope :one_day_ago_expenses, -> {where"date >= ?", 1.day.ago.begginnig_of_day}
+#  scope :one_day_ago_expenses, -> {where"date >= ?", 2.days.ago.begginnig_of_day}
 
 
 

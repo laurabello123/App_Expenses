@@ -14,22 +14,24 @@ class DashboardHandler
      @expenses.one_day_ago_expenses.pluck(:amount).sum
   end
 
-  def last_month_expenses
+  def this_month_expenses
+    @expenses.this_month.pluck(:amount).sum
+  end
+
+   def last_month_expenses
       @expenses.one_month_ago_expenses.pluck(:amount).sum
    end
 
-  def this_month_expenses
+  def transaction_type_for_last_six_months
+
   end
 
-  def transaction_type_last_six_months
+  def current_month_expenses_by_transaction_type
   end
 
-  def transaction_type_by_day
+  def current_moth_expenses_by_category
   end
 
-  def total_expenses_by_category
-  end
-
-  def this_month_expenses_vs_other_month_expenses
+  def accumulated_against_last_month
   end
 end

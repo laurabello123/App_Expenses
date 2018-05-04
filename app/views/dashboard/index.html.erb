@@ -6,50 +6,58 @@
     <title>Expenses</title>
   </head>
   <body>
-    <nav>
-      <ul>
-       Expensify
-      </ul>
-      <ul>
-       Dashboard
-      </ul>
-      <ul>
-       Expenses
-      </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <div class="container">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <a class="navbar-brand" href="#">Expensify</a>
+
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link" href="expenses">Expenses</a>
+               </li>
+               <li class="nav-item active">
+                 <a class="nav-link" href="dashboard">Dashboard <span class="sr-only">(current)</span></a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
      <container>
        <section>
+         <div class = "container my-4">
+           <div class = "row">
+           <h5 class="col">$1.345.679</h5>
+           <h5 class="col">$1.456.789</h5>
+           <h5 class="col">$3.678.567</h5>
+           <h5 class="col"> 15.678.456</h5>
+         </div>
+         <div class = "container">
+           <div class = "row">
+           <p class="col">Today</p>
+           <p class="col">Yesterday</p>
+           <p class="col">This Month</p>
+           <p class="col">Last Month</p>
+         </div>
 
-         <div>
-           <h3>Today</h3>
-         </div>
-         <div>
-           <h3>Yesterday</h3>
-         </div>
-         <div>
-           <h3>This Month</h3>
-         </div>
-         <div>
-           <h3>Last Month</h3>
-         </div>
       </container>
     </section>
 
-    <div>
-      <h5> Last 6 months </h5>
-      <p> Purchase Withdrawals Transfers Payments</p>
+    <div class = "container">
+      <div class = "row">
+      <h5 class="col"> Last 6 months </h5>
+
+       <h5 class="col"> By day  </h5>
+
     </div>
-    <div>
-       <h5> By day  </h5>
-       <p> Purchase - Withdrawals - Transfers Payments</p>
-    </div>
-    <div>
-      <h5> By category </h5>
-      <p> Fun Service Car Education Grocery Restaurant</p>
-    </div>
-    <div>
-      <h5> Accumulated </h5>
-      <p> Mes anterior   Mes seleccionado</p>
+    <div class = "container ">
+      <div class = "row">
+      <h5 class="col"> By category </h5>
+
+      <h5 class="col"> Accumulated </h5>
+
     </div>
    </header>
   </body>

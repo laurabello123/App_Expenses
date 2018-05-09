@@ -8,6 +8,8 @@ end
 
 gem "devise"
 
+gem "faker"
+
 gem 'bootstrap', '~> 4.1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
@@ -48,8 +50,6 @@ group :development, :test do
   gem "factory_bot_rails"
 
   gem "rspec-rails"
-
-  gem "faker"
 
   gem "database_cleaner"
 
